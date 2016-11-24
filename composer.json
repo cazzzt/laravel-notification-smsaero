@@ -1,0 +1,33 @@
+{
+    "name": "cazzzt/laravel-notification-smsaero",
+    "description": "This package makes it easy to send notifications using smsaero.ru with Laravel 5.3",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "^6.2",
+        "illuminate/notifications": "^5.3",
+        "illuminate/support": "^5.1|^5.2|^5.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cazzzt\\SmsAero\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cazzzt\\SmsAero\\Test\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "cazzzt",
+            "email": "alex.i.lukin@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}
