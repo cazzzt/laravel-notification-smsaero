@@ -7,7 +7,7 @@ This package makes it easy to send notifications using [smsaero.ru](//smsaero.ru
 You can install the package via composer:
 
 ```bash
-composer require laravel-notification-channels/smsc-ru
+composer require cazzzt/smsaero
 ```
 
 Then you must install the service provider:
@@ -65,10 +65,6 @@ class AccountApproved extends Notification
 
 `content()`: Sets a content of the notification message.
 
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
 ## Testing
 
 In the near future...
@@ -80,4 +76,4 @@ If you discover any security related issues, please email alex.i.lukin@yandex.ru
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT).
