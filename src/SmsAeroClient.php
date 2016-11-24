@@ -77,7 +77,7 @@ class SmsAeroClient
 
         try {
             $response = $this->client->post(self::baseURL, ['form_params' => $params]);
-            dd($response = json_decode((string) $response->getBody(), true));
+            $response = json_decode((string) $response->getBody(), true);
 
             if (isset($response['error'])) {
                 throw new DomainException($response['error'], $response['error_code']);
