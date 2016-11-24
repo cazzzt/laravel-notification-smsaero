@@ -7,7 +7,7 @@ This package makes it easy to send notifications using [smsaero.ru](//smsaero.ru
 You can install the package via composer:
 
 ```bash
-composer require cazzzt/laravel-notification-smsaero
+composer require "cazzzt/laravel-notification-smsaero": "*"
 ```
 
 Then you must install the service provider:
