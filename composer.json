@@ -29,5 +29,6 @@
             "email": "alex.i.lukin@yandex.ru"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
