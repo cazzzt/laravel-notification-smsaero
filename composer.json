@@ -28,5 +28,6 @@
             "name": "cazzzt",
             "email": "alex.i.lukin@yandex.ru"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
