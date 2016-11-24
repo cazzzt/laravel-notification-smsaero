@@ -67,7 +67,7 @@ class AccountApproved extends Notification
 
 ## Testing
 
-In the near future...
+In the near future..
 
 ## Security
 
