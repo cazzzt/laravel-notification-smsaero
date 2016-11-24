@@ -26,7 +26,7 @@ Add your SmsAero login, secret key (hashed password), default sign and send chan
 ```php
 // config/services.php
 ...
-'smscru' => [
+'smsaero' => [
     'user'  => env('SMSAERO_USER'),
     'secret' => env('SMSAERO_SECRET'),
     'sign' => env('SMSAERO_SIGN'),
